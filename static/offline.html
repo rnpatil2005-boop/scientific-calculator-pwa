@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Calculator (Offline)</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Scientific Calculator</h1>
+
+    <input type="number" id="num1" placeholder="Main number">
+    <input type="number" id="num2" placeholder="Second number">
+
+    <div class="buttons">
+        <button onclick="calculate('add')">+</button>
+        <button onclick="calculate('sub')">−</button>
+        <button onclick="calculate('mul')">×</button>
+        <button onclick="calculate('div')">÷</button>
+        <button onclick="calculate('sin')">sin</button>
+        <button onclick="calculate('cos')">cos</button>
+        <button onclick="calculate('log')">log</button>
+        <button onclick="calculate('sqrt')">√</button>
+        <button onclick="calculate('pow')">xʸ</button>
+    </div>
+
+    <h2 id="result">Offline mode</h2>
+    <ul id="history"></ul>
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
