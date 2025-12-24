@@ -3,8 +3,7 @@
   "short_name": "Calculator",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#1d2671",
-  "theme_color": "#1d2671",
-  "description": "Scientific calculator with history, built using Flask",
-  "scope": "/"
+  "background_color": "#ffffff",
+  "theme_color": "#0f172a",
+  "icons": []
 }
